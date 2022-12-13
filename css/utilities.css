@@ -1,0 +1,194 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  /* defines the area to cover by each element in the grid. 2 times 1 fraction width area, which is equal distribution for each */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
+.btn:hover {
+  /* scales down buttons on hover. default value is 1 */
+  transform: scale(0.98);
+}
+
+/* Backgrounds and color buttons */
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* Text styles */
+
+.lead {
+  font-size: 20px;
+}
+
+.small-heading {
+  font-size: 1rem;
+}
+
+.medium-heading {
+  font-size: 2rem;
+}
+
+.large-heading {
+  font-size: 3rem;
+}
+
+.extra-large-heading {
+  font-size: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Margins */
+
+/* margin vertical */
+.marginY-1 {
+  margin: 1rem 0;
+}
+
+.marginY-2 {
+  margin: 1.5rem 0;
+}
+
+.marginY-3 {
+  margin: 2rem 0;
+}
+
+.marginY-4 {
+  margin: 3rem 0;
+}
+
+.marginY-5 {
+  margin: 4rem 0;
+}
+
+/* margin both vertical and horizontal */
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-2 {
+  margin: 1.5rem;
+}
+
+.margin-3 {
+  margin: 2rem;
+}
+
+.margin-4 {
+  margin: 3rem;
+}
+
+.margin-5 {
+  margin: 4rem;
+}
+
+/* padding vertical */
+.paddingY-1 {
+  padding: 1rem;
+}
+
+.paddingY-2 {
+  padding: 1.5rem;
+}
+
+.paddingY-3 {
+  padding: 2rem;
+}
+
+.paddingY-4 {
+  padding: 3rem;
+}
+
+.paddingY-5 {
+  padding: 4rem;
+}
+
+/* padding both vertical and horizontal */
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-2 {
+  padding: 1.5rem;
+}
+
+.padding-3 {
+  padding: 2rem;
+}
+
+.padding-4 {
+  padding: 3rem;
+}
+
+.padding-5 {
+  padding: 4rem;
+}
